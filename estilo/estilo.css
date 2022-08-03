@@ -95,7 +95,13 @@ h3{
 h4{
     color: #02236d;
     font-family:'Roboto Slab', serif; 
-    
+    padding: 0;
+    margin: 0;
+}
+h5{
+    padding: 0;
+    margin: 10px;
+    color: yellow;
 }
 
 p{
@@ -207,6 +213,36 @@ label{
     background-color: yellow;
 }
 
+.jugador{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+.jugador .respuesta{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.comision{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    flex: 1;
+    border-color: 2px solid yellow;
+}
+.comision .respuesta{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.datos_bombonera{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 @media( min-width: 700px ){
 
@@ -252,7 +288,7 @@ label{
     .proxp_img{
         width: 1000px;
         grid-template-rows: 500px;
-        }
+    }
 
 }
 
