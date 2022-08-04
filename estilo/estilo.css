@@ -82,7 +82,7 @@ h2{
     color: white;
     font-size: 30px;
     font-family:'Roboto Slab', serif;
-    
+
 }
 
 h3{
@@ -115,7 +115,10 @@ li{
     font-size: 25px;
     font-family:'Roboto Slab', serif;
 }
-
+.pie{
+    text-align: center;
+    text-transform: uppercase;
+}
 .respuesta{
     list-style: none;
     color: #003290;
@@ -206,12 +209,42 @@ label{
     text-align: center;
 }
 
-
-.img_bombonera{
-    text-align: center;
-    border: 2px solid yellow;
-    background-color: yellow;
+.contacto{
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 55px 55px;
+    grid-template-areas: "nombre consulta"
+                         "email consulta "
+                         "localidad enviar";
 }
+.contacto > div{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border: 1px solid blue;
+    
+}
+.contac1{
+    grid-area: nombre;
+}
+.contac2{
+    grid-area: email;
+}
+.contac3{
+    grid-area: localidad;
+}
+.contac4{
+    grid-area: consulta;
+}
+.contac5{
+    grid-area: enviar;
+}
+
+
+
 
 .jugador{
     display: flex;
@@ -235,14 +268,8 @@ label{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-
 }
 
-.datos_bombonera{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 @media( min-width: 700px ){
 
@@ -266,20 +293,17 @@ label{
         flex-wrap: nowrap;
     }
 
-    .link_socio{
+    .info_socio{
         text-align: center;
     }
 
-    .datos_bombonera{
-        display: flex;
-        flex-wrap: nowrap;
-        align-items:center;
-        justify-content: center;
-    }
     .info_deporte{
         display: flex;
         flex-wrap: nowrap;
     }
+    .contacto{
+        width: 600px;
+        }
 }
 
 
@@ -289,6 +313,9 @@ label{
         width: 1000px;
         grid-template-rows: 500px;
     }
+    .contacto{
+        width: 800px;
+        }
 
 }
 
