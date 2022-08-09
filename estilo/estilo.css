@@ -3,7 +3,6 @@ body{
     padding: 0;
     background-color: #003290;
 }
-
 p{
     margin: 0;
 }
@@ -14,6 +13,7 @@ p{
 header {
     background-color: #003290;
     width: 100%;
+
 }
 .inicio{
     background-image: url(../imagenes/fondo_bombonera.jpg);
@@ -21,68 +21,79 @@ header {
     background-position: top center;
 }
 
-
-
 h1{
     padding: 0;
     margin: 0;
     text-transform: uppercase;
-    color:white ;
+    color:#F5C412 ;
     font-weight: bold;
     font-size: 50px;
     font-family:'Roboto Slab', serif; 
     letter-spacing: 3px;
     text-align: center;
-    
-    
 }
+
+.querido{
+    color: #F5C412;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    transform: rotate(-3deg);
+}
+
+.querido:hover{
+    transform: scale(1.1);
+}
+
 .escudo{
     text-align: center;
 }
+
+.escudo:hover {
+    transform: scale(1.1);
+}
+
 a{
     color: white;
     font-size: 25px;
     font-family:'Roboto Slab', serif; 
     text-decoration: none;
-    
 }
 
 a:hover {
-    color: yellow;
+    color: #F5C412;
     text-decoration: none;
 }
 
 .primer_menu{
-    background-color: #02236d;
+    background-image: linear-gradient(to bottom,#003290 0%, #F5C412 100%);
     font-size: medium;
-    border: 1px solid yellow;
+    border: 1px solid #F5C412;
     padding: 10px;
-    margin: 10px;
     text-align: center;
 }
 
 .segundo_menu{
-    background-color: #6f8cc0 ;
+    background-image: linear-gradient(to bottom,#F5C412 0%, #003290 100%);
     font-size: larger;
-    border: 1px solid yellow;
-    text-align: left;
+    border: 1px solid #F5C412;
+    padding: 10px;
+    text-align: center;
 }
 
 section{
     padding:0;
     margin: 0;
     background-color: #6f8cc0;
-    
 }
 
 h2{
     padding: 0;
     margin: 0;
     background-color: #02236d;
-    color: white;
+    color: #F5C412;
     font-size: 30px;
     font-family:'Roboto Slab', serif;
-
 }
 
 h3{
@@ -98,6 +109,7 @@ h4{
     padding: 0;
     margin: 0;
 }
+
 h5{
     padding: 0;
     margin: 10px;
@@ -115,10 +127,12 @@ li{
     font-size: 25px;
     font-family:'Roboto Slab', serif;
 }
+
 .pie{
     text-align: center;
     text-transform: uppercase;
 }
+
 .respuesta{
     list-style: none;
     color: #003290;
@@ -149,6 +163,7 @@ label{
     display: flex;
     flex-wrap: wrap;
 }
+
 .segundo_menu a{
     width: 100%;
     align-items: center;
@@ -170,7 +185,6 @@ label{
     align-items: stretch;
     justify-content: center;
     border: 1px solid yellow;
-    
 }
 
 .proxp_img a {
@@ -187,17 +201,28 @@ label{
 .img1 a{
     background-image: url(../imagenes/proximo_partido.jpg);
 }
+.img1:hover{
+    transform: scale(1.1);
+}
+
 .img2{
     grid-area: img2;
 }
 .img2 a{
     background-image: url(../imagenes/proximo_partido1.jpg);
 }
+.img2:hover{
+    transform: scale(1.1);
+}
+
 .img3{
     grid-area: img3;
 }
 .img3 a{
     background-image: url(../imagenes/proximo_partido2.jpg);
+}
+.img3:hover{
+    transform: scale(1.1);
 }
 
 .imagen_socio{
@@ -205,9 +230,12 @@ label{
     border: 2px solid yellow;
     background-color: yellow;
 }
+
 .link_socio{
     text-align: center;
 }
+
+
 
 .contacto{
     width: 450px;
