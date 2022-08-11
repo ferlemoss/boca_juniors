@@ -68,7 +68,6 @@ a:hover {
 .primer_menu{
     background-image: linear-gradient(to bottom,#003290 0%, #F5C412 100%);
     font-size: medium;
-    border: 1px solid #F5C412;
     padding: 10px;
     text-align: center;
 }
@@ -76,7 +75,6 @@ a:hover {
 .segundo_menu{
     background-image: linear-gradient(to bottom,#F5C412 0%, #003290 100%);
     font-size: larger;
-    border: 1px solid #F5C412;
     padding: 10px;
     text-align: center;
 }
@@ -100,7 +98,7 @@ h3{
     color: #02236d;
     font-size: 25px;
     font-family:'Roboto Slab', serif; 
-    
+    !important;
 }
 
 h4{
@@ -298,6 +296,17 @@ label{
     text-align: center;
 }
 
+@media( min-width: 1000px ){
+
+    .proxp_img{
+        width: 900px;
+        grid-template-rows: 600px;
+    }
+    .contacto{
+        width: 800px;
+        }
+
+}
 
 @media( min-width: 700px ){
 
@@ -309,6 +318,7 @@ label{
         width: 650px;
         margin: auto;
         margin-top: 10px;
+        margin-bottom: 10px;
         grid-template-rows: 350px;
     }
     
@@ -333,24 +343,3 @@ label{
         width: 600px;
         }
 }
-
-
-@media( min-width: 1000px ){
-
-    .proxp_img{
-        width: 1000px;
-        grid-template-rows: 500px;
-    }
-    .contacto{
-        width: 800px;
-        }
-
-}
-
-
-
-
-
-
-
-

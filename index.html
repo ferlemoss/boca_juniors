@@ -8,6 +8,7 @@
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
         <enlace href="https: //fonts.googleapis.com/css2? familia= Roboto+Losa:peso@300;400;500 & display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 <body>
@@ -65,7 +66,7 @@
                     </div>
             </div>     
                     <div class="link_socio">
-                    <a href="https://soysocio.bocajuniors.com.ar/quiero-ser-socio" target="_blank">QUIERO SER SOCIO!</a>
+                    <a href="https://soysocio.bocajuniors.com.ar/quiero-ser-socio" target="_blank" type="button" class="btn btn-outline-warning">QUIERO SER SOCIO!</a>
                     </div>
              
         </section>
@@ -86,73 +87,346 @@
         
         <section >
             <h2 id="deportes_amateurs">Deportes Amateurs</h2>
-            <div>
-                <ul class="deportes_amateur">
-                    <li> <a href="#">AJEDREZ</a></li>
-                    <li><a href="#">BASQUET</a></li>
-                        <div class="info_deporte">
-                            <p>El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
-                         finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
-                        <img src="imagenes/basquet.jpg" alt="basquet" width="300" height="300"/>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    AJEDREZ
+                    </button>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse btn-primary" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
                         </div>
-                    <li><a href="#">BOCHAS</a></li>
-                    <li><a href="#">BOXEO</a></li>
-                    <li><a href="#">FUTSAL</a></li>
-                    <li><a href="#">GIMNASIA ARTISTICA</a></li>
-                    <li><a href="#">HANDBAL</a></li>
-                    <li><a href="#">INICIACION DEPORTIVA</a></li>
-                    <li><a href="#">KARATE</a></li>
-                    <li><a href="#">LUCHA OLIMPICA</a></li>
-                    <li><a href="#">PELOTA PALETA</a></li>
-                    <li><a href="#">PILETA</a></li>
-                    <li><a href="#">RUNNING</a></li>
-                    <li><a href="#">TAEKWONDO</a></li>
-                    <li><a href="#">VOLEY</a></li>
-                </ul>
+                    </div>
+                </div>
+                
             </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    BASQUET
+                    </button>
+                </h3>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    BOXEO
+                  </button>
+                </h3>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    FUTSAL
+                  </button>
+                </h3>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    GIMNASIA ARTISTICA
+                  </button>
+                </h3>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    HANDBAL
+                  </button>
+                </h3>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingSeven">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    INICIACION DEPORTIVA
+                  </button>
+                </h3>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingEight">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    KARATE
+                  </button>
+                </h3>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingNine">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                    LUCHA OLIMPICA
+                  </button>
+                </h3>
+                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingTen">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                    PELOTA PALETA
+                  </button>
+                </h3>
+                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingEleven">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                    PILETA
+                  </button>
+                </h3>
+                <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingTwelve">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                    RUNNING
+                  </button>
+                </h3>
+                <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingThirteen">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                    TAEKWONDO
+                  </button>
+                </h3>
+                <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingFourteen">
+                  <button class="accordion-button collapsed bg-warning text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                    VOLEY
+                  </button>
+                </h3>
+                <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-primary"> 
+                        <div class="row g-0 bg-light position-relative">
+                            <div class="col-md-6 mb-md-0 p-md-4">
+                              <img src="imagenes/basquet.jpg" class="w-100" alt="basquet" width="300" height="300">
+                            </div>
+                            <div class="col-md-6 p-4 ps-md-0 bg-primary">
+                              <h5 class="mt-0">mercado de pases</h5>
+                              <p class="text-white">El jugador estadounidense J.J.Avila, perteneciente al primer equipo del básquet profesional del club,
+                                finalmente no fue habilitado para disputar el Final 8 de la Basketball Champions League Americas.</p>
+                              <a href="#" class="stretched-link">mas info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         </section>
+
         <section>
             <h2 id="contacto">Contactanos</h2>
             <h3>¿QUERES MAS INFORMACION?</h3>
             <H3>ESCRIBINOS</H3>
-            <div>
-                <form action="consulta.html">
-                <div class="contacto">
-                    <div class="contac1">
-                        <fieldset>
-                            <label>
-                            Nombre:
-                                <input type="text" placeholder="escribir nombre"/>
-                            </label>
-                        </fieldset>
-                    </div>
-                    <div class="contac2">
-                        <fieldset>
-                            <label>
-                            Email:
-                                <input type="email" placeholder="escribir email"/>
-                            </label>
-                        </fieldset>
-                    </div>
-                    <div class="contac3">
-                        <fieldset>
-                            <label>
-                            Localidad:
-                                <input type="text" placeholder="escribir localidad"/>
-                            </label>
-                        </fieldset>
-                    </div>
-                    <div class="contac4">
-                    <textarea placeholder="consulta"></textarea>
-                    </div>
-                 
-                    <div class="contac5">
-                        <input type="submit">
-                    </div>
-                </div>
-                </form>
-
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Dejanos tu Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+              <a href="consulta.html" type="button" class="btn btn-outline-warning">Enviar</a>
         </section>
 
     </main>
@@ -162,6 +436,6 @@
          <h2>boca juniors 2022</h2>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
