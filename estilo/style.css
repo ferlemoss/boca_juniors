@@ -109,7 +109,7 @@ a {
 
 section {
   padding: 0;
-  margin: 0;
+  margin: 2%;
   background-color: #6f8cc0; }
 
 .respuesta {
@@ -170,7 +170,7 @@ label {
   text-align: center; }
 
 .link_socio {
-  text-align: center; }
+  text-align: center !important; }
 
 .pie {
   text-align: center;
