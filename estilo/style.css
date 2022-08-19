@@ -48,7 +48,7 @@ h4 {
 h5 {
   padding: 0;
   margin: 10px;
-  color: yellow; }
+  color: #F5C412; }
 
 p {
   margin: 0;
@@ -85,7 +85,7 @@ a {
     transform: scale(1.1); }
 
 .primer_menu {
-  background-image: linear-gradient(to bottom, #003290 0%, #F5C412 100%);
+  background: #003290;
   font-size: medium;
   padding: 10px;
   text-align: center;
@@ -96,7 +96,7 @@ a {
     justify-content: center; }
 
 .segundo_menu {
-  background-image: linear-gradient(to bottom, #F5C412 0%, #003290 100%);
+  background: #02236d;
   font-size: larger;
   padding: 10px;
   text-align: center;
@@ -111,10 +111,6 @@ section {
   padding: 0;
   margin: 0;
   background-color: #6f8cc0; }
-
-.pie {
-  text-align: center;
-  text-transform: uppercase; }
 
 .respuesta {
   list-style: none;
@@ -176,6 +172,10 @@ label {
 .link_socio {
   text-align: center; }
 
+.pie {
+  text-align: center;
+  text-transform: uppercase; }
+
 .jugador {
   display: flex;
   flex-wrap: wrap;
@@ -183,18 +183,8 @@ label {
   .jugador .respuesta {
     justify-content: center;
     align-items: center;
-    text-align: center; }
-
-.comision {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 15px;
-  flex: 1;
-  border-color: 2px solid yellow; }
-  .comision .respuesta {
-    justify-content: center;
-    align-items: center;
-    text-align: center; }
+    text-align: center;
+    border: 2px solid #F5C412; }
 
 .noticias {
   width: 100%;
