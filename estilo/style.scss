@@ -1,7 +1,14 @@
+$fondo1: #003290;
+$fondo2: #02236d;
+$fondo3: #6f8cc0;
+
+$color1: #F5C412;
+$color2: #02236d;
+
 body{
     margin: 0;
     padding: 0;
-    background-color: #003290;
+    background-color: $fondo1;
 }
 
 *{
@@ -9,7 +16,7 @@ body{
 }
 
 header {
-    background-color: #003290;
+    background-color: $fondo1;
     width: 100%;
 
 }
@@ -24,7 +31,7 @@ h1{
     padding: 0;
     margin: 0;
     text-transform: uppercase;
-    color:#F5C412 ;
+    color: $color1;
     font-weight: bold;
     font-size: 50px;
     font-family:'Roboto Slab', serif; 
@@ -35,20 +42,20 @@ h1{
 h2{
     padding: 0;
     margin: 0;
-    background-color: #02236d;
-    color: #F5C412;
+    background-color: $fondo2;
+    color: $color1;
     font-size: 30px;
     font-family:'Roboto Slab', serif;
 }
 
 h3{
-    color: #02236d;
+    color: $color2;
     font-size: 25px;
     font-family:'Roboto Slab', serif; 
 }
 
 h4{
-    color: #02236d;
+    color: $color2;
     font-family:'Roboto Slab', serif; 
     padding: 0;
     margin: 0;
@@ -57,18 +64,18 @@ h4{
 h5{
     padding: 0;
     margin: 10px;
-    color: #F5C412;
+    color: $color1;
 }
 
 p{
     margin: 0;
-    color: #02236d;
+    color: $color2;
     font-size: 20px;
     font-family:'Roboto Slab', serif; 
 }
 
 li{
-    color: #02236d;
+    color: $color2;
     font-size: 25px;
     font-family:'Roboto Slab', serif;
 }
@@ -80,13 +87,13 @@ a{
     text-decoration: none;
 
     &:hover {
-        color: #F5C412;
+        color: $color1;
         text-decoration: none;
     }
 }
 
 .querido{
-    color: #F5C412;
+    color: $color1;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -106,7 +113,7 @@ a{
 }
 
 .primer_menu{
-    background:#003290;
+    background: $fondo1;
     font-size: medium;
     padding: 10px;
     text-align: center;
@@ -119,8 +126,8 @@ a{
     }
 }
 
-.segundo_menu{
-    background:#02236d;
+.segundo_menu{ 
+    background: $fondo2;
     font-size: larger;
     padding: 10px;
     text-align: center;
@@ -137,17 +144,17 @@ a{
 section{
     padding:0;
     margin: 2%;
-    background-color: #6f8cc0;
+    background-color: $fondo3;
 }
 
 .respuesta{
     list-style: none;
-    color: #003290;
+    color: $color2;
     font-family:'Roboto Slab', serif; 
 }
 
 .info_deporte{
-    background-color:yellow;
+    background-color: $fondo2;
 }
 
 label{
@@ -169,7 +176,7 @@ label{
         display: flex;
         align-items: stretch;
         justify-content: center;
-        border: 1px solid yellow;
+        border: 1px solid $color1;
     }
 
     a {
@@ -239,7 +246,7 @@ label{
         justify-content: center;
         align-items: center;
         text-align: center;
-        border: 2px solid #F5C412 ;
+        border: 2px solid $color1 ;
     }
 }
 

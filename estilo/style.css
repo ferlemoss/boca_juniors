@@ -114,11 +114,11 @@ section {
 
 .respuesta {
   list-style: none;
-  color: #003290;
+  color: #02236d;
   font-family: 'Roboto Slab', serif; }
 
 .info_deporte {
-  background-color: yellow; }
+  background-color: #02236d; }
 
 label {
   color: white;
@@ -137,7 +137,7 @@ label {
     display: flex;
     align-items: stretch;
     justify-content: center;
-    border: 1px solid yellow; }
+    border: 1px solid #F5C412; }
   .proxp_img a {
     width: 100%;
     display: flex;
