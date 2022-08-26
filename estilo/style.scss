@@ -22,7 +22,7 @@ header {
 }
 
 .inicio{
-    background-image: url(../imagenes/fondo_bombonera.jpg);
+    background-image: url(../imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -33,7 +33,7 @@ h1{
     text-transform: uppercase;
     color: $color1;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 25px;
     font-family:'Roboto Slab', serif; 
     letter-spacing: 3px;
     text-align: center;
@@ -280,6 +280,21 @@ label{
 
 @media( min-width: 1000px ){
 
+    h1{
+        font-size: 50px;
+    }
+
+    .escudo{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .primer_menu{
+        text-transform: uppercase;
+    }
+
     .proxp_img{
         width: 900px;
         grid-template-rows: 600px;
@@ -291,6 +306,21 @@ label{
 }
 
 @media( min-width: 700px ){
+
+    h1{
+        font-size: 50px;
+    }
+
+    .escudo{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .primer_menu{
+        text-transform: uppercase;
+    }
 
     .segundo_menu{
         display: flex;
