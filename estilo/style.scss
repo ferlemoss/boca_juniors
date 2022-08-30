@@ -5,9 +5,13 @@ $fondo3: #6f8cc0;
 $color1: #F5C412;
 $color2: #02236d;
 
-body{
+@mixin padmarg {
     margin: 0;
     padding: 0;
+}
+
+body{
+    @include padmarg;
     background-color: $fondo1;
 }
 
@@ -28,8 +32,7 @@ header {
 }
 
 h1{
-    padding: 0;
-    margin: 0;
+    @include padmarg;
     text-transform: uppercase;
     color: $color1;
     font-weight: bold;
@@ -40,8 +43,7 @@ h1{
 }
 
 h2{
-    padding: 0;
-    margin: 0;
+    @include padmarg;
     background-color: $fondo2;
     color: $color1;
     font-size: 30px;
@@ -55,20 +57,19 @@ h3{
 }
 
 h4{
+    @include padmarg;
     color: $color2;
     font-family:'Roboto Slab', serif; 
-    padding: 0;
-    margin: 0;
 }
 
 h5{
-    padding: 0;
+    @include padmarg;
     margin: 10px;
     color: $color1;
 }
 
 p{
-    margin: 0;
+    @include padmarg;
     color: $color2;
     font-size: 20px;
     font-family:'Roboto Slab', serif; 
@@ -142,7 +143,7 @@ a{
 }
 
 section{
-    padding:0;
+    @include padmarg;
     margin: 2%;
     background-color: $fondo3;
 }
