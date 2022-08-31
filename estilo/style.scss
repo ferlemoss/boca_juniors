@@ -152,6 +152,7 @@ section{
     list-style: none;
     color: $color2;
     font-family:'Roboto Slab', serif; 
+    border-radius: 10px;
 }
 
 .info_deporte{
@@ -249,7 +250,7 @@ label{
 .jugador{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 15px;
+    column-gap: 20px;
 
     .respuesta{
         justify-content: center;

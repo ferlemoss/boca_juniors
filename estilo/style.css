@@ -32,7 +32,8 @@ h2 {
   background-color: #02236d;
   color: #F5C412;
   font-size: 30px;
-  font-family: 'Roboto Slab', serif; }
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2px 2px 3px #02236d 255, 0, 0, 0.7; }
 
 h3 {
   color: #02236d;
@@ -118,7 +119,8 @@ section {
 .respuesta {
   list-style: none;
   color: #02236d;
-  font-family: 'Roboto Slab', serif; }
+  font-family: 'Roboto Slab', serif;
+  border-radius: 10px; }
 
 .info_deporte {
   background-color: #02236d; }
@@ -187,7 +189,7 @@ label {
 .jugador {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 15px; }
+  column-gap: 20px; }
   .jugador .respuesta {
     justify-content: center;
     align-items: center;
